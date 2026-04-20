@@ -1,11 +1,13 @@
 import { Linkedin } from 'lucide-react';
 
+type Page = 'home' | 'about' | 'contact';
+
 interface FooterProps {
-  onNavigate: (page: string) => void;
+  onNavigate: (page: Page) => void;
 }
 
 export default function Footer({ onNavigate }: FooterProps) {
-  const handleNav = (page: string) => {
+  const handleNav = (page: Page) => {
     onNavigate(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
