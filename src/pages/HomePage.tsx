@@ -36,8 +36,11 @@ const expertise = [
 export default function HomePage({ onNavigate }: HomePageProps) {
   return (
     <div className="font-inter">
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
+
+        {/* Background image (STABLE VERSION) */}
         <div className="absolute inset-0">
           <img
             src="/hero.jpg"
@@ -48,6 +51,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         </div>
 
         <div className="relative max-w-6xl mx-auto px-6 pt-24 pb-20 grid md:grid-cols-2 gap-12 items-center">
+
           <div className="text-white">
             <p className="text-amber-400 text-sm font-medium tracking-[0.25em] uppercase mb-4">
               Welcome
@@ -85,13 +89,16 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                 <ArrowRight size={16} />
               </button>
             </div>
+
           </div>
+
         </div>
       </section>
 
-      {/* About Section (shortened safe version) */}
+      {/* About Section */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
           <div>
             <h2 className="text-4xl font-semibold mb-6">
               Marketing That <span className="italic text-amber-700">Moves People</span>
@@ -108,8 +115,10 @@ export default function HomePage({ onNavigate }: HomePageProps) {
               Read My Story <ArrowRight size={16} />
             </button>
           </div>
+
         </div>
       </section>
+
     </div>
   );
 }
