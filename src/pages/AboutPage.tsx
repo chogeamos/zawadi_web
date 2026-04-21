@@ -18,9 +18,9 @@ const strengths = [
   },
   {
     icon: Target,
-    title: 'Market Positioning',
+    title: 'Virtual Assistant',
     description:
-      'Identifying and owning the unique space a brand occupies in the minds of its audience — crafting positioning that differentiates and resonates.',
+      'Proving  organised,reliable support through efficient scheduling,communication, and smooth day-to-day operation.',
   },
   {
     icon: BarChart2,
