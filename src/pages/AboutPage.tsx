@@ -20,7 +20,7 @@ const strengths = [
     icon: Target,
     title: 'Virtual Assistant',
     description:
-      'Proving  organised,reliable support through efficient scheduling,communication, and smooth day-to-day operation.',
+      'Providing organised,reliable support through efficient scheduling,communication, and smooth day-to-day operation.',
   },
   {
     icon: BarChart2,
